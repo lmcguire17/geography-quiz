@@ -1,0 +1,86 @@
+body {
+	background-color: #1e7886;
+}
+
+
+#test {
+	background-color: #729bec;
+	padding: 1em;
+	border: 5em solid #5476b9;
+	border-radius: 2em;
+	max-width: 42em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#title {
+	color: white;
+	text-align: center;
+	font-family: 'Lobster Two';
+	font-size: 3em;	
+}
+
+#quiz-status {
+	color: #935d46;
+	text-align: center;
+	font-family: 'Slabo 27px';
+	font-size: 2em; 
+}
+
+h3 {
+	font-family: 'Lobster Two';
+	font-size: 1.7em;
+}
+
+label {
+	font-family: 'Slabo 27px';
+	font-size: 1.4em; 
+	color: white; 
+	text-align: center;
+	padding: 1em; 
+}
+
+input {
+	margin: 1em 0em 2em 3em;
+}
+
+input:checked + label {
+	background-color: #935d46;
+	border-radius: 1.2em;
+}
+
+#btn-save, #btn-again {
+	background-color: #935d46;
+	font-family: 'Slabo 27px';
+	font-size: 1.2em;
+	color: white;
+	border-radius: .5em;
+	padding: .8em;
+	margin: 1em 0em 1em 1em;
+}
+
+#btn-save:hover, #btn-again:hover {
+	background-color: #1e7886;
+}
+
+#test > span {
+	color: #935d46;
+	float: right;
+	font-size: 20em;
+	margin-right: .15em;
+}
+
+#current-score {
+	color: #b13822;
+	margin-left: 1em;
+	font-family: 'Slabo 27px';
+	font-size: 1.5em;
+}
+
+#number-correct {
+	color: white;
+	font-family: 'Slabo 27px';
+	font-size: 2em;
+	margin-bottom: 1.5em;
+}
+
